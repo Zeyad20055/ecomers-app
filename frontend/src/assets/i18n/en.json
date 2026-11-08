@@ -1,0 +1,320 @@
+{
+  "common": {
+    "actions": "Actions",
+    "cancel": "Cancel",
+    "close": "Close",
+    "confirm": "Confirm",
+    "delete": "Delete",
+    "edit": "Edit",
+    "loading": "Loading…",
+    "next": "Next",
+    "previous": "Previous",
+    "optional": "optional",
+    "pagination": "Pagination",
+    "remove": "Remove",
+    "retry": "Retry",
+    "save": "Save",
+    "search": "Search"
+  },
+  "nav": {
+    "main": "Main navigation",
+    "home": "Home",
+    "shop": "Shop",
+    "contact": "Call us",
+    "favorites": "Favorites",
+    "cart": "Cart",
+    "menu": "Menu",
+    "switchLanguage": "Switch language"
+  },
+  "footer": {
+    "about": "Quality products, confirmed personally by phone and delivered to your door.",
+    "contact": "Contact",
+    "delivery": "Delivery arranged by phone",
+    "links": "Quick links",
+    "rights": "All rights reserved.",
+    "staff": "Staff login"
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "Welcome",
+      "title": "Find something you’ll love",
+      "subtitle": "Browse our collection, add what you like to your cart, and we’ll call you to confirm and arrange delivery.",
+      "chipDelivery": "Home delivery",
+      "chipPhone": "Confirmed by phone"
+    },
+    "perks": {
+      "confirmTitle": "Phone confirmation",
+      "confirmText": "We call you to confirm every order.",
+      "deliveryTitle": "Delivery to your door",
+      "deliveryText": "Arranged together on the call.",
+      "payTitle": "Flexible payment",
+      "payText": "Pay on delivery or online with Paymob."
+    },
+    "search": "Search",
+    "searchLabel": "Search products",
+    "searchPlaceholder": "Search products…",
+    "categories": {
+      "eyebrow": "Browse",
+      "title": "Shop by category"
+    },
+    "featured": {
+      "eyebrow": "Hand-picked",
+      "title": "Featured products"
+    },
+    "latest": {
+      "eyebrow": "Just in",
+      "title": "Latest products"
+    },
+    "shop": {
+      "eyebrow": "Everything",
+      "title": "The full collection"
+    },
+    "allCategories": "All",
+    "sort": {
+      "label": "Sort products",
+      "newest": "Newest first",
+      "priceAsc": "Price: low to high",
+      "priceDesc": "Price: high to low",
+      "name": "Name (A–Z)"
+    },
+    "empty": {
+      "title": "No products found",
+      "text": "Try a different search or category."
+    }
+  },
+  "product": {
+    "addToCart": "Add to cart",
+    "addedToCart": "Added to your cart",
+    "viewDetails": "Details",
+    "addFavorite": "Add to favorites",
+    "removeFavorite": "Remove from favorites",
+    "featured": "Featured",
+    "unavailable": "Currently unavailable",
+    "available": "Available"
+  },
+  "details": {
+    "back": "Back to store",
+    "quantity": "Quantity",
+    "qtyInvalid": "Enter a quantity between 1 and 99.",
+    "related": "You may also like",
+    "notFoundTitle": "Product not found",
+    "notFoundText": "This product is no longer available.",
+    "inCart": "{{count}} in your cart",
+    "viewCart": "View cart"
+  },
+  "favorites": {
+    "eyebrow": "Saved",
+    "title": "Your favorites",
+    "emptyTitle": "No favorites yet",
+    "emptyText": "Tap the heart on any product to save it here.",
+    "browse": "Browse products",
+    "gone": "This product is no longer available."
+  },
+  "cart": {
+    "eyebrow": "Review",
+    "title": "Shopping cart",
+    "emptyTitle": "Your cart is empty",
+    "emptyText": "Add some products to get started.",
+    "continue": "Continue shopping",
+    "summary": "Order summary",
+    "items": "Items",
+    "total": "Total",
+    "totalNote": "Prices are confirmed by the store when you place the order.",
+    "checkout": "Proceed to checkout",
+    "increase": "Increase quantity",
+    "decrease": "Decrease quantity",
+    "itemGone": "Item no longer available",
+    "unavailableNotice": "Some items are unavailable. Remove them to continue."
+  },
+  "checkout": {
+    "eyebrow": "Almost there",
+    "title": "Checkout",
+    "yourDetails": "Your details",
+    "fullName": "Full name",
+    "phone": "Phone number",
+    "email": "Email",
+    "address": "Delivery address",
+    "notes": "Notes for the store",
+    "paymentMethod": "Payment method",
+    "phoneNotice": "Our team will call to confirm availability and arrange delivery. Pay on delivery.",
+    "paymobNotice": "You will continue to Paymob's secure page to complete payment.",
+    "placeOrder": "Place order",
+    "submitting": "Sending…",
+    "backToCart": "Back to cart"
+  },
+  "payment": {
+    "method": { "cash_on_delivery": "Cash on delivery", "paymob": "Online payment with Paymob" },
+    "status": { "not_required": "Not required", "pending": "Awaiting payment", "paid": "Paid", "failed": "Payment failed" }
+  },
+  "success": {
+    "title": "Order received!",
+    "subtitle": "Thank you. Your order request has been sent to the store.",
+    "orderCode": "Order code",
+    "phoneProcess": "We will call you shortly to confirm availability and arrange delivery. Your order is not confirmed until we speak.",
+    "paymobProcess": "You have returned from Paymob. Final payment status is confirmed only by Paymob's signed notification; an order confirmation email is sent after successful payment.",
+    "details": "Your details",
+    "placedOn": "Placed on",
+    "callUs": "Questions? Call us:",
+    "backHome": "Back to home"
+  },
+  "login": {
+    "title": "Manager login",
+    "subtitle": "Sign in to manage {{store}}.",
+    "email": "Email",
+    "password": "Password",
+    "submit": "Sign in",
+    "backToStore": "Back to the store"
+  },
+  "status": {
+    "opened": "Opened",
+    "closed": "Closed"
+  },
+  "validation": {
+    "required": "This field is required.",
+    "name": "Please enter your full name (at least 2 characters).",
+    "phone": "Enter a valid phone number (7–20 digits).",
+    "email": "Enter a valid email address.",
+    "address": "Please enter your delivery address (at least 5 characters).",
+    "price": "Enter a price of 0 or more.",
+    "quantity": "Enter a whole number of 0 or more.",
+    "url": "Enter a link starting with http(s)://"
+  },
+  "errors": {
+    "generic": "Something went wrong. Please try again.",
+    "loadFailed": "We couldn’t load this content.",
+    "NETWORK": "Can’t reach the server. Check your connection.",
+    "UNAUTHORIZED": "Please sign in to continue.",
+    "TOKEN_EXPIRED": "Your session expired. Please sign in again.",
+    "INVALID_TOKEN": "Please sign in again.",
+    "INVALID_CREDENTIALS": "Incorrect email or password.",
+    "TOO_MANY_ATTEMPTS": "Too many login attempts. Try again in a few minutes.",
+    "TOO_MANY_REQUESTS": "Too many requests. Try again later.",
+    "VALIDATION_ERROR": "Some of the information is invalid. Please check and try again.",
+    "INVALID_ID": "Invalid request.",
+    "FORBIDDEN": "You don’t have permission to do that.",
+    "DATABASE_UNAVAILABLE": "The service is temporarily unavailable.",
+    "CATEGORY_NAME_EXISTS": "A category with this name already exists.",
+    "CATEGORY_HAS_ITEMS": "This category still contains items. Move or delete them first.",
+    "CATEGORY_NOT_FOUND": "Category not found.",
+    "ITEM_NOT_FOUND": "Product not found.",
+    "ORDER_NOT_FOUND": "Order not found.",
+    "NOTE_NOT_FOUND": "Note not found.",
+    "ITEMS_UNAVAILABLE": "Some items are no longer available in the requested quantity.",
+    "PAYMOB_NOT_CONFIGURED": "Online payment is not set up yet. Choose cash on delivery or contact the store.",
+    "reason": {
+      "UNAVAILABLE": "no longer available",
+      "OUT_OF_STOCK": "out of stock",
+      "INSUFFICIENT_STOCK": "not enough in stock"
+    }
+  },
+  "manager": {
+    "logout": "Log out",
+    "name": "Name",
+    "description": "Description",
+    "image": "Image",
+    "imageUrl": "Image URL",
+    "category": "Category",
+    "price": "Price",
+    "quantity": "Quantity (exact)",
+    "status": "Status",
+    "active": "Active",
+    "inactive": "Inactive",
+    "toggleStatus": "Toggle status",
+    "nav": {
+      "label": "Dashboard navigation",
+      "dashboard": "Overview",
+      "categories": "Categories",
+      "items": "Items",
+      "orders": "Orders",
+      "notes": "Notes",
+      "viewStore": "View store"
+    },
+    "dashboard": {
+      "title": "Overview",
+      "activeItems": "Active items",
+      "categories": "Categories",
+      "totalOrders": "Total orders",
+      "openedOrders": "Opened orders",
+      "closedOrders": "Closed orders",
+      "recent": "Recent orders"
+    },
+    "categories": {
+      "title": "Categories",
+      "add": "Add category",
+      "edit": "Edit category",
+      "searchPlaceholder": "Search categories…",
+      "emptyTitle": "No categories",
+      "emptyText": "Create your first category to organize products.",
+      "created": "Category created",
+      "updated": "Category updated",
+      "deleted": "Category deleted",
+      "deleteTitle": "Delete category?",
+      "deleteMessage": "“{{name}}” will be permanently deleted. This can’t be undone."
+    },
+    "items": {
+      "title": "Items",
+      "add": "Add item",
+      "edit": "Edit item",
+      "searchPlaceholder": "Search items…",
+      "anyStatus": "Any status",
+      "chooseCategory": "Choose a category",
+      "needCategory": "Create a category first before adding items.",
+      "emptyTitle": "No items",
+      "emptyText": "No items match your filters.",
+      "created": "Item created",
+      "updated": "Item updated",
+      "deleted": "Item deleted",
+      "deleteTitle": "Delete item?",
+      "deleteMessage": "“{{name}}” will be permanently deleted. This can’t be undone."
+    },
+    "orders": {
+      "title": "Orders",
+      "searchPlaceholder": "Search by code, name or phone…",
+      "allStatuses": "All statuses",
+      "empty": "No orders yet",
+      "code": "Order code",
+      "customer": "Customer",
+      "total": "Total",
+      "status": "Status",
+      "date": "Date",
+      "view": "View",
+      "details": "Order",
+      "product": "Product",
+      "unitPrice": "Unit price",
+      "qty": "Qty",
+      "subtotal": "Subtotal",
+      "customerNotes": "Customer notes",
+      "managerNotes": "Manager notes",
+      "internal": "Internal",
+      "noNotes": "No notes.",
+      "saveNotes": "Save notes",
+      "notesSaved": "Notes saved",
+      "statusUpdated": "Status updated",
+      "markClosed": "Mark as closed",
+      "reopen": "Reopen order"
+    },
+    "notes": {
+      "title": "Notes",
+      "newLabel": "New note",
+      "placeholder": "Write a note…",
+      "add": "Add Note",
+      "edit": "Edit note",
+      "empty": "A note can’t be empty.",
+      "emptyTitle": "No notes yet",
+      "emptyText": "Add your first note above.",
+      "created": "Note added",
+      "updated": "Note updated",
+      "deleted": "Note deleted",
+      "edited": "Edited",
+      "unknownUser": "Unknown user",
+      "loadMore": "Load more",
+      "deleteTitle": "Delete note?",
+      "deleteMessage": "This note will be permanently deleted. This can’t be undone."
+    }
+  },
+  "notFound": {
+    "title": "Page not found",
+    "text": "The page you’re looking for doesn’t exist or has moved.",
+    "home": "Back to home"
+  }
+}

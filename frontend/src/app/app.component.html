@@ -1,0 +1,10 @@
+<router-outlet />
+
+<div class="toasts" aria-live="polite" aria-atomic="false">
+  @for (toast of notifications.toasts(); track toast.id) {
+    <div class="toast" [class]="'toast toast--' + toast.type" role="status">
+      <span>{{ toast.message }}</span>
+      <button type="button" class="toast__close" (click)="notifications.dismiss(toast.id)" [attr.aria-label]="'common.close' | translate">&times;</button>
+    </div>
+  }
+</div>
